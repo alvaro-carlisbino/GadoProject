@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GadoProject</title>
-    <link rel="stylesheet" href="src/css/index.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.23/dist/sweetalert2.all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+    <div class="line-1 anim-typewriter">
+      <h1 class="">Você me ama?</h1>
+      <label id="switch" class="switch">
+        <input type="checkbox" onclick="load()"/>
+        <span class="slider"></span>
+      </label>
+    </div>
     <!-- Gado Script-->
     <script src="src/js/index.js"></script>
     <script>
-        load()
+      //load()
     </script>
-</body>
+  </body>
 </html>
